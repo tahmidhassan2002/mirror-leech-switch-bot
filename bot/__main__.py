@@ -90,8 +90,8 @@ async def stats(ctx):
 
 async def start(ctx):
     buttons = ButtonMaker()
-    buttons.ubutton("Repo", "https://www.github.com/anasty17/mirror-leech-telegram-bot")
-    buttons.ubutton("Owner", "https://t.me/anas_tayyar")
+    buttons.ubutton("Owner", "https://t.me/tahmid8464")
+    buttons.ubutton("Powered by", "https://t.me/BDH_Premium_Shop")
     reply_markup = buttons.build_menu(2)
     if await CustomFilters.authorized(ctx):
         start_string = f"""
